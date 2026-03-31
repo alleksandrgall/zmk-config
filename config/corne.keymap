@@ -30,6 +30,16 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
         };
+
+        minus-combo {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
+        };
+
+        plus_combo {
+            bindings = <&kp PLUS>;
+            key-positions = <15 16>;
+        };
     };
 
     keymap {
