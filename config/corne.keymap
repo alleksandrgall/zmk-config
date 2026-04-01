@@ -41,6 +41,16 @@
             bindings = <&kp PLUS>;
             key-positions = <15 16>;
         };
+
+        russian_ha {
+            bindings = <&kp RU_CYRILLIC_HA>;
+            key-positions = <10 9>;
+        };
+
+        russian_hard_sign {
+            bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
+            key-positions = <9 10 11>;
+        };
     };
 
     keymap {
