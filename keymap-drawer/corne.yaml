@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-shift$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
+  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', RAI, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, N,
+    M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, LEFT SHIFT, '$$mdi:apple-keyboard-option$$']
   LOW:
   - ↹
   - '1'
@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - $$mdi:backspace-outline$$
-  - BT CLR
+  - {t: BT CLR, type: held}
   - BT 1
   - BT 2
   - BT 3
@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '&studio_unlock', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,10 +86,10 @@ layers:
   - '&studio_unlock'
   - ␣
   - ⏎
-  - {t: '&studio_unlock', type: held}
+  - LEFT SHIFT
   - $$mdi:apple-keyboard-option$$
 combos:
-- p: [37, 40]
+- p: [40, 12]
   k: LOW
 - p: [18, 19]
   k: (
