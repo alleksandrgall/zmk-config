@@ -51,6 +51,86 @@
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <9 10 11>;
         };
+
+        under_score {
+            bindings = <&kp UNDER>;
+            key-positions = <4 5>;
+        };
+
+        equal_sign {
+            bindings = <&kp EQUAL>;
+            key-positions = <3 4>;
+        };
+
+        mult_sign {
+            bindings = <&kp ASTRK>;
+            key-positions = <14 15>;
+        };
+
+        squar_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <6 7>;
+        };
+
+        square_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        figure_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <30 31>;
+        };
+
+        figure_right {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <31 32>;
+        };
+
+        ampersand {
+            bindings = <&kp DOLLAR>;
+            key-positions = <29 28>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <27 28>;
+        };
+
+        right_slash {
+            bindings = <&kp FSLH>;
+            key-positions = <8 9>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <20 21>;
+        };
+
+        left_slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <32 33>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <26 27>;
+        };
+
+        exclamation_mark {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <0 1>;
+        };
+
+        sobaka {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <12 13>;
+        };
+
+        hashtag {
+            bindings = <&kp POUND>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
