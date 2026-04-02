@@ -103,3 +103,35 @@ combos:
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
 - p: [9, 10, 11]
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
+- p: [4, 5]
+  k: _
+- p: [3, 4]
+  k: '='
+- p: [14, 15]
+  k: '*'
+- p: [6, 7]
+  k: '['
+- p: [7, 8]
+  k: ']'
+- p: [30, 31]
+  k: '{'
+- p: [31, 32]
+  k: '}'
+- p: [29, 28]
+  k: $
+- p: [27, 28]
+  k: AMPERSAND
+- p: [8, 9]
+  k: /
+- p: [20, 21]
+  k: '|'
+- p: [32, 33]
+  k: \
+- p: [26, 27]
+  k: '%'
+- p: [0, 1]
+  k: '!'
+- p: [12, 13]
+  k: '@'
+- p: [24, 25]
+  k: '#'

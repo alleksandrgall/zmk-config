@@ -87,7 +87,7 @@
             key-positions = <31 32>;
         };
 
-        ampersand {
+        dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <29 28>;
         };
