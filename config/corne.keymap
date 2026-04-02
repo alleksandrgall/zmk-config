@@ -136,6 +136,11 @@
             bindings = <&tog 4>;
             key-positions = <17 31 13>;
         };
+
+        question_mark {
+            bindings = <&kp QUESTION>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
