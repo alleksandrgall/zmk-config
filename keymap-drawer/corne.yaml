@@ -86,7 +86,7 @@ layers:
   - '&studio_unlock'
   - ␣
   - ⏎
-  - LEFT SHIFT
+  - Alt+LEFT SHIFT
   - $$mdi:apple-keyboard-option$$
 combos:
 - p: [40, 12]
