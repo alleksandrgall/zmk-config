@@ -91,22 +91,31 @@ layers:
 combos:
 - p: [40, 12]
   k: LOW
+  l: [LOW]
 - p: [18, 19]
   k: (
+  l: [LOW]
 - p: [19, 20]
   k: )
+  l: [LOW]
 - p: [16, 17]
   k: '-'
+  l: [LOW]
 - p: [15, 16]
   k: +
+  l: [LOW]
 - p: [10, 9]
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  l: [LOW]
 - p: [9, 10, 11]
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
+  l: [LOW]
 - p: [4, 5]
   k: _
+  l: [LOW]
 - p: [3, 4]
   k: '='
+  l: [LOW]
 - p: [14, 15]
   k: '*'
 - p: [6, 7]
@@ -121,21 +130,30 @@ combos:
   k: $
 - p: [27, 28]
   k: AMPERSAND
+  l: [LOW]
 - p: [8, 9]
   k: /
+  l: [LOW]
 - p: [20, 21]
   k: '|'
+  l: [LOW]
 - p: [32, 33]
   k: \
+  l: [LOW]
 - p: [26, 27]
   k: '%'
+  l: [LOW]
 - p: [0, 1]
   k: '!'
+  l: [LOW]
 - p: [12, 13]
   k: '@'
+  l: [LOW]
 - p: [24, 25]
   k: '#'
 - p: [17, 31, 13]
   k: {t: BAS, h: toggle}
+  l: [LOW]
 - p: [1, 2]
   k: '?'
+  l: [LOW]

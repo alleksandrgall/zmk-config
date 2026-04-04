@@ -20,46 +20,55 @@
         to_connection_layer {
             bindings = <&mo 3>;
             key-positions = <40 12>;
+            layers = <1>;
         };
 
         left_round_parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <18 19>;
+            layers = <1>;
         };
 
         right_round_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
+            layers = <1>;
         };
 
         minus-combo {
             bindings = <&kp MINUS>;
             key-positions = <16 17>;
+            layers = <1>;
         };
 
         plus_combo {
             bindings = <&kp PLUS>;
             key-positions = <15 16>;
+            layers = <1>;
         };
 
         russian_ha {
             bindings = <&kp RU_CYRILLIC_HA>;
             key-positions = <10 9>;
+            layers = <1>;
         };
 
         russian_hard_sign {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <9 10 11>;
+            layers = <1>;
         };
 
         under_score {
             bindings = <&kp UNDER>;
             key-positions = <4 5>;
+            layers = <1>;
         };
 
         equal_sign {
             bindings = <&kp EQUAL>;
             key-positions = <3 4>;
+            layers = <1>;
         };
 
         mult_sign {
@@ -95,36 +104,43 @@
         ampersand {
             bindings = <&kp AMPERSAND>;
             key-positions = <27 28>;
+            layers = <1>;
         };
 
         right_slash {
             bindings = <&kp FSLH>;
             key-positions = <8 9>;
+            layers = <1>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <20 21>;
+            layers = <1>;
         };
 
         left_slash {
             bindings = <&kp BACKSLASH>;
             key-positions = <32 33>;
+            layers = <1>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <26 27>;
+            layers = <1>;
         };
 
         exclamation_mark {
             bindings = <&kp EXCLAMATION>;
             key-positions = <0 1>;
+            layers = <1>;
         };
 
         sobaka {
             bindings = <&kp AT_SIGN>;
             key-positions = <12 13>;
+            layers = <1>;
         };
 
         hashtag {
@@ -135,11 +151,13 @@
         gaming_layer_tog {
             bindings = <&tog 4>;
             key-positions = <17 31 13>;
+            layers = <1>;
         };
 
         question_mark {
             bindings = <&kp QMARK>;
             key-positions = <1 2>;
+            layers = <1>;
         };
     };
 
