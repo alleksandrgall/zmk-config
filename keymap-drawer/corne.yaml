@@ -81,13 +81,13 @@ layers:
   - '{'
   - '}'
   - '|'
-  - '~'
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - '&studio_unlock'
   - ␣
   - ⏎
-  - Alt+LEFT SHIFT
-  - $$mdi:apple-keyboard-option$$
+  - LEFT SHIFT
+  - Sft+LEFT ALT
 combos:
 - p: [40, 12]
   k: LOW
