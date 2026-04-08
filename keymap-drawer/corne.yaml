@@ -64,10 +64,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
+  - ←
+  - ↓
+  - ↑
+  - RIGHT ARROW
   - \
   - '`'
   - $$mdi:apple-keyboard-control$$
