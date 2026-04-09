@@ -94,10 +94,8 @@ combos:
   l: [LOW]
 - p: [18, 19]
   k: (
-  l: [LOW]
 - p: [19, 20]
   k: )
-  l: [LOW]
 - p: [16, 17]
   k: '-'
   l: [LOW]
@@ -106,10 +104,8 @@ combos:
   l: [LOW]
 - p: [10, 9]
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  l: [LOW]
 - p: [9, 10, 11]
   k: (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
-  l: [LOW]
 - p: [4, 5]
   k: _
   l: [LOW]

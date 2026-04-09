@@ -26,13 +26,13 @@
         left_round_parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <18 19>;
-            layers = <1>;
+            timeout-ms = <50>;
         };
 
         right_round_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
-            layers = <1>;
+            timeout-ms = <50>;
         };
 
         minus-combo {
@@ -50,13 +50,13 @@
         russian_ha {
             bindings = <&kp RU_CYRILLIC_HA>;
             key-positions = <10 9>;
-            layers = <1>;
+            timeout-ms = <50>;
         };
 
         russian_hard_sign {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <9 10 11>;
-            layers = <1>;
+            timeout-ms = <50>;
         };
 
         under_score {
