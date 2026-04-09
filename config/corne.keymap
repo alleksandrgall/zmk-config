@@ -159,6 +159,16 @@
             key-positions = <1 2>;
             layers = <1>;
         };
+
+        left_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <37 24 0 5 29>;
+        };
+
+        right_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <40 30 6 11 35>;
+        };
     };
 
     keymap {
