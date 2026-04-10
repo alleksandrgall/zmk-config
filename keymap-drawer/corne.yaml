@@ -159,6 +159,3 @@ combos:
   k: Boot
 - p: [40, 30, 6, 11, 35]
   k: Boot
-- p: [17, 31, 13]
-  k: {t: BAS, h: toggle}
-  l: [GAM]

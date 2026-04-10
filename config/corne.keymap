@@ -169,12 +169,6 @@
             bindings = <&bootloader>;
             key-positions = <40 30 6 11 35>;
         };
-
-        gaminglayeroff {
-            bindings = <&tog 0>;
-            key-positions = <17 31 13>;
-            layers = <1>;
-        };
     };
 
     keymap {
