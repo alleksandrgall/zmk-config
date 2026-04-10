@@ -1,6 +1,8 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V,
+  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', RAI, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V, B, N,
+    M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, LEFT SHIFT, '$$mdi:apple-keyboard-option$$']
+  GAM: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-control$$', Z, X, C, V,
     B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, LEFT SHIFT, '$$mdi:apple-keyboard-option$$']
   LOW:
   - ↹
@@ -148,7 +150,7 @@ combos:
 - p: [24, 25]
   k: '#'
 - p: [17, 31, 13]
-  k: {t: BAS, h: toggle}
+  k: {t: GAM, h: toggle}
   l: [LOW]
 - p: [1, 2]
   k: '?'
@@ -157,3 +159,6 @@ combos:
   k: Boot
 - p: [40, 30, 6, 11, 35]
   k: Boot
+- p: [17, 31, 13]
+  k: {t: BAS, h: toggle}
+  l: [GAM]

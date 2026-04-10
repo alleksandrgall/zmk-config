@@ -18,9 +18,9 @@
         compatible = "zmk,combos";
 
         to_connection_layer {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <40 12>;
-            layers = <1>;
+            layers = <2>;
         };
 
         left_round_parentheses {
@@ -38,13 +38,13 @@
         minus-combo {
             bindings = <&kp MINUS>;
             key-positions = <16 17>;
-            layers = <1>;
+            layers = <2>;
         };
 
         plus_combo {
             bindings = <&kp PLUS>;
             key-positions = <15 16>;
-            layers = <1>;
+            layers = <2>;
         };
 
         russian_ha {
@@ -62,13 +62,13 @@
         under_score {
             bindings = <&kp UNDER>;
             key-positions = <4 5>;
-            layers = <1>;
+            layers = <2>;
         };
 
         equal_sign {
             bindings = <&kp EQUAL>;
             key-positions = <3 4>;
-            layers = <1>;
+            layers = <2>;
         };
 
         mult_sign {
@@ -104,43 +104,43 @@
         ampersand {
             bindings = <&kp AMPERSAND>;
             key-positions = <27 28>;
-            layers = <1>;
+            layers = <2>;
         };
 
         right_slash {
             bindings = <&kp FSLH>;
             key-positions = <8 9>;
-            layers = <1>;
+            layers = <2>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <20 21>;
-            layers = <1>;
+            layers = <2>;
         };
 
         left_slash {
             bindings = <&kp BACKSLASH>;
             key-positions = <32 33>;
-            layers = <1>;
+            layers = <2>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <26 27>;
-            layers = <1>;
+            layers = <2>;
         };
 
         exclamation_mark {
             bindings = <&kp EXCLAMATION>;
             key-positions = <0 1>;
-            layers = <1>;
+            layers = <2>;
         };
 
         sobaka {
             bindings = <&kp AT_SIGN>;
             key-positions = <12 13>;
-            layers = <1>;
+            layers = <2>;
         };
 
         hashtag {
@@ -149,15 +149,15 @@
         };
 
         gaming_layer_tog {
-            bindings = <&tog 4>;
+            bindings = <&tog 1>;
             key-positions = <17 31 13>;
-            layers = <1>;
+            layers = <2>;
         };
 
         question_mark {
             bindings = <&kp QMARK>;
             key-positions = <1 2>;
-            layers = <1>;
+            layers = <2>;
         };
 
         left_bootloader {
@@ -168,6 +168,12 @@
         right_bootloader {
             bindings = <&bootloader>;
             key-positions = <40 30 6 11 35>;
+        };
+
+        gaminglayeroff {
+            bindings = <&tog 0>;
+            key-positions = <17 31 13>;
+            layers = <1>;
         };
     };
 
@@ -185,9 +191,19 @@
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U           &kp I      &kp O    &kp P     &kp BSPC
-&mo 2      &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J           &kp K      &kp L    &kp SEMI  &kp SQT
+&mo 3      &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J           &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &kp LEFT_SHIFT  &kp LALT
+                         &kp LGUI  &mo 2  &kp SPACE    &kp RET  &kp LEFT_SHIFT  &kp LALT
+            >;
+        };
+
+        gaming_layer {
+            display-name = "GAM";
+            bindings = <
+&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U           &kp I      &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J           &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                              &kp LGUI  &mo 2  &kp SPACE    &kp RET  &kp LEFT_SHIFT  &kp LALT
             >;
         };
 
@@ -232,16 +248,6 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
 &kp LCTRL   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
                                         &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp LALT
-            >;
-        };
-
-        gaming_layer {
-            display-name = "BAS";
-            bindings = <
-&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U           &kp I      &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J           &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                              &kp LGUI  &mo 1  &kp SPACE    &kp RET  &kp LEFT_SHIFT  &kp LALT
             >;
         };
     };
